@@ -1,0 +1,22 @@
+th{
+    background-color: beige;
+}
+h1{
+    padding-left: 50px;
+    color: rgb(3, 132, 3);
+}
+table{
+    border: 1px solid red; 
+    
+}
+table, tr,td, th{
+    border-bottom: 1px solid red;
+    border-collapse: collapse;
+    padding: 10px;
+}
+tr:nth-child(even){
+    background-color: blue;
+}
+tr:nth-child(odd){
+    background-color: burlywood;
+}
